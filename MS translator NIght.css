@@ -1,0 +1,148 @@
+/* ==UserStyle==
+@name         Bing Microsoft Translator Night
+@namespace      Bing Microsoft Translator
+@version       1.0.0
+@description    Adds dark mode to Bing Translator
+@author        KeDo
+==/UserStyle== */
+@-moz-document url-prefix("https://cn.bing.com/translator"),
+regexp("http(s|)+://[^\\s]+.bing.com/translator(/|)+[^\\s]*") {
+    
+    html {
+        background-color: #1c1c1c;
+    }
+
+    /* 页顶样式 */
+    .t_header {
+        background-color: #1d1d1d;
+    }
+    .sw_qbox,
+    .bcSrchBoxSubmit {
+        background-color: #444;
+    }
+    .t_navigation {
+        background-color: #2d2d2d;
+        border-bottom: #2d2d2d;
+    }
+    .b_idOpen #id_d {
+        background-color: #4d4d4d;
+        color: #fff;
+    }
+    #id_d a:hover {
+        background-color: #666;
+    }
+    #b_idProviders a,
+    #b_idSettings a,
+    #id_d span,
+    #id_d a.id_left_link {
+        color: #fff;
+    }
+    #b_content a.cbtn:active,
+    #b_content .cbtn a:active,
+    .cbtn input:focus,
+    .cbtn input:active,
+    a.cbtn,
+    .cbtn a,
+    .cbtn input,
+    #b_content a.cbtn,
+    #b_content a.cbtn:visited,
+    #b_content .cbtn a,
+    #b_content .cbtn a:visited {
+        background-color: #444;
+        color: #fff;
+    }
+    .bnc-f,
+    .bnc-ft.bnc-ft.bnc-ft__sport-team-suggestions,
+    .bnc-flyout__suggestions,
+    .bnc-flyout__imlink,
+    .bnc-sport-team-suggestion,
+    .bnc-sport-team-suggestions {
+        background-color: #444;
+        color: #fff;
+    }
+    /* 页脚样式 */
+    .b_footer {
+        background-color: #2d2d2d;
+    }
+    .b_footer a,
+    .b_footer a:visited {
+        color: #ddd;
+    }
+    #b_footerItems span {
+        color: #fff;
+    }
+    /* 短语推送 */
+    #tt_translatorHome .tta_phraseb {
+        background-color: #2c2c2c;
+        color: #bbb;
+    }
+    .b_module_expansion .b_expansion_wrapper .sv_ch {
+        fill: #fff;
+    }
+    .b_block_expansion .b_onpage_expansion {
+        color: #eee;
+    }
+    .b_block_expansion .b_onpage_expansion .sv_ch {
+        fill: #eee;
+    }
+    #tt_perajx .b_module_expansion .b_onpage_expansion .b_expansion_text,
+    #tt_translatorHome .b_module_expansion .b_onpage_expansion .b_expansion_text {
+        color: #eee;
+    }
+    .tta_separator_pb:hover,
+    .tta_separator_pb:focus,
+    .tta_fseparator_pb:hover,
+    .tta_fseparator_pb:focus {
+        background-color: #3c3c3c;
+        color: #fff;
+    }
+    /* 翻译工作区域 */
+    .tta_incell,
+    #tta_tgtsl,
+    #tta_srcsl {
+        background-color: #444;
+        color: #fff;
+    }
+    .tta_tbl td,
+    #tt_translatorHome .tta_outtxt,
+    #tta_input_ta,
+    #tta_output_ta,
+    #tta_pretxt {
+        background-color: #444;
+        color: #eee;
+    }
+    #rich_tta #tta_input_ta:not(.ctxt) {
+        color: #eee;
+    }
+    #tt_translatorHome .ttrev_icon {
+        background-color: #6d6d6d;
+    }
+    .ttrev_icon svg {
+        fill: #fff;
+    }
+    .tta_err {
+        top: 100px;
+    }
+    .tt_home_exp_ctrl_cont {
+        color: #dedede;
+    }
+    #tta_alttbl .tta_altTransText,
+    .srctxt {
+        color: #eaeaea;
+    }
+    .tta_nmtgt,
+    .tta_nmsrc,
+    #tta_org,
+    #tta_tgt {
+        color: #00cfff;
+    }
+    .tta_alttrans,
+    .tgttxt {
+        color: #bababa;
+    }
+    #rich_tta .b_footnote,
+    #tta_attr .b_footnote,
+    .tta_exptbl .b_footnote {
+        color: #f00b;
+    }
+}
